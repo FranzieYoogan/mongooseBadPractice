@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(cors())
 
 
-mongoose.connect('mongodb+srv://franzieyoogan2:admin357159@cluster0.guw8a4s.mongodb.net/class1')
+mongoose.connect('yourKluster')
   .then(() => {
     console.log('Connected!')
     app.use(router)
